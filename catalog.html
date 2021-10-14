@@ -64,20 +64,20 @@
     </header>
 
     <main class="main-catalog">
-      <header class="catalog-header">
+      <section class="catalog-header">
         <h1 class="catalog-header-title">Моноподы для селфи</h1>
         <ul class="breadcrumbs">
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-link" href="index.html">Главная</a>
           </li>
           <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link" href="#">Каталог товаров</a>
+            <a class="breadcrumbs-link">Каталог товаров</a>
           </li>
           <li class="breadcrumbs-item">
             <a class="breadcrumbs-link">Моноподы для селфи</a>
           </li>
         </ul>
-      </header>
+      </section>
 
       <section class="catalog-products">
         <h2 class="visually-hidden">Список товаров с фильтрами</h2>
@@ -92,10 +92,10 @@
               <span class="visually-hidden">Изменить максимальную цену</span>
             </button>
             <label class="catalog-filter-label">
-              от <input class="catalog-filter-input" type="number" name="min-price" placeholder="0">
+              от <input class="catalog-filter-input" type="text" name="min-price" placeholder="0">
             </label>
             <label class="catalog-filter-label">
-              до <input class="catalog-filter-input" type="number" name="max-price" placeholder="5000">
+              до <input class="catalog-filter-input" type="text" name="max-price" placeholder="5000">
             </label>
 
           </fieldset>
@@ -217,11 +217,11 @@
           </li>
         </ul>
 
-        <button class="more-product-button" type="button">Загрузить еще</button>
+        <a class="more-product-button" href="#">Загрузить еще</a>
 
         <ul class="pagination">
           <li class="pagination-item">
-            <a class="pagination-link pagination-prev">Назад</a>
+            <a class="pagination-link pagination-prev" href="#">Назад</a>
           </li>
           <li class="pagination-item">
             <a class="pagination-link pagination-current">1</a>
